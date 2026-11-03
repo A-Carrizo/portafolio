@@ -1,209 +1,221 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es" class="no-js">
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title>Portafolio</title>
+        <meta name="description" content="Aldo Carrizo — Desarrollador web y Licenciado en Análisis de Sistemas en Ciudad del Este, Paraguay." />
+        <meta name="author" content="Aldo Carrizo" />
+        <meta name="theme-color" content="#1e30f3" />
+        <title>Aldo Carrizo · Desarrollador Web</title>
+        <script>(function(){try{var t=localStorage.getItem('theme');if(!t)t=matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';document.documentElement.setAttribute('data-theme',t);}catch(e){}})();</script>
         <!-- Favicon-->
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <link rel="icon" type="image/svg+xml" href="assets/icono_persona.svg" />
         <!-- Custom Google font-->
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@100;200;300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet" />
-        <!-- Bootstrap icons-->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&amp;display=swap" rel="stylesheet" />
+        <!-- Iconos-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet" />
+        <link href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/devicon.min.css" rel="stylesheet" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+        <link href="css/custom.css" rel="stylesheet" />
     </head>
     <body class="d-flex flex-column h-100">
-        <main class="flex-shrink-0">
-            <!-- Navigation-->
-            <nav class="navbar navbar-expand-lg navbar-light bg-white py-3">
-                <div class="container px-5">
-                    <a class="navbar-brand" href="index.html"><span class="fw-bolder text-primary">Aldo Carrizo</span></a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 small fw-bolder">
-                            <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
-                            <li class="nav-item"><a class="nav-link" href="resume.html">Currículum</a></li>
-                            <li class="nav-item"><a class="nav-link" href="projects.html">Proyectos</a></li>
-                            <li class="nav-item"><a class="nav-link" href="contact.html">Contacto</a></li>
-                        </ul>
-                    </div>
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg site-nav sticky-top" id="mainNav">
+            <div class="container px-4 px-lg-5">
+                <a class="brand" href="index.html"><span class="brand-mark">AC</span><span>Aldo Carrizo</span></a>
+                <div class="d-flex align-items-center gap-2 order-lg-last ms-auto ms-lg-3">
+                    <button class="icon-btn" id="themeToggle" type="button" aria-label="Cambiar tema claro/oscuro"><i class="bi bi-moon-stars-fill"></i></button>
+                    <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Abrir menú"><i class="bi bi-list"></i></button>
                 </div>
-            </nav>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="resume.html">Currículum</a></li>
+                        <li class="nav-item"><a class="nav-link" href="projects.html">Proyectos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contact.html">Contacto</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <main class="flex-shrink-0">
             <!-- Header-->
-            <header class="py-5">
-                <div class="container px-5 pb-5">
+            <header class="hero">
+                <div class="hero-bg" aria-hidden="true">
+                    <span class="blob blob-1"></span>
+                    <span class="blob blob-2"></span>
+                    <span class="grid-overlay"></span>
+                </div>
+                <div class="container px-4 px-lg-5">
                     <div class="row gx-5 align-items-center">
-                        <div class="col-xxl-5">
-                            <!-- Header text content-->
-                            <div class="text-center text-xxl-start">
-                                <div class="badge bg-gradient-primary-to-secondary text-white mb-4"><div class="text-uppercase">Diseño &middot; Desarrollo &middot; Informática</div></div>
-                                <div class="fs-3 fw-light text-muted">Puedo ayudar a tu negocio a</div>
-                                <h1 class="display-3 fw-bolder mb-5"><span class="text-gradient d-inline">Digitalizarse y tener presencia Online</span></h1>
-                                <div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xxl-start mb-3">
-                                    <a class="btn btn-primary btn-lg px-5 py-3 me-sm-3 fs-6 fw-bolder" href="resume.html">Currículum</a>
-                                    <a class="btn btn-outline-dark btn-lg px-5 py-3 fs-6 fw-bolder" href="projects.html">Proyectos</a>
-                                </div>
+                        <div class="col-lg-6 text-center text-lg-start reveal">
+                            <span class="eyebrow"><span class="pulse-dot"></span>Diseño &middot; Desarrollo &middot; Informática</span>
+                            <p class="hero-kicker">Hola, soy Aldo. Puedo ayudar a tu negocio a</p>
+                            <h1 class="hero-title"><span class="text-gradient" id="typed" data-words='["digitalizarse.", "tener presencia online.", "automatizar procesos.", "crecer en la web."]'>digitalizarse.</span><span class="caret" aria-hidden="true"></span></h1>
+                            <p class="hero-lead">Desarrollador web y Licenciado en Análisis de Sistemas. Transformo ideas en soluciones digitales claras, rápidas y fáciles de usar.</p>
+                            <div class="d-flex flex-wrap gap-3 justify-content-center justify-content-lg-start">
+                                <a class="btn-grad" href="projects.html">Ver proyectos <i class="bi bi-arrow-right"></i></a>
+                                <a class="btn-ghost" href="resume.html"><i class="bi bi-file-earmark-person"></i> Currículum</a>
+                            </div>
+                            <div class="hero-stats">
+                                <div><strong>4+</strong><span>años en IT</span></div>
+                                <div><strong>4</strong><span>proyectos destacados</span></div>
+                                <div><strong>10+</strong><span>tecnologías</span></div>
                             </div>
                         </div>
-                        <div class="col-xxl-7">
-                            <!-- Header profile picture-->
-                            <div class="d-flex justify-content-center mt-5 mt-xxl-0">
-                                <div class="profile bg-gradient-primary-to-secondary">
-                                    <!-- TIP: For best results, use a photo with a transparent background like the demo example below-->
-                                    <!-- Watch a tutorial on how to do this on YouTube (link)-->
-                                    <img class="profile-img" src="assets/descanso_free1.png" alt="..." />
-                                    <div class="dots-1">
-                                        <!-- SVG Dots-->
-                                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 191.6 1215.4" style="enable-background: new 0 0 191.6 1215.4" xml:space="preserve">
-                                            <g transform="translate(0.000000,1280.000000) scale(0.100000,-0.100000)">
-                                                <path d="M227.7,12788.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,12801.6,289.7,12808.6,227.7,12788.6z"></path>
-                                                <path d="M1507.7,12788.6c-151-50-253-216-222-362c25-119,136-230,254-255c194-41,395,142,375,339c-11,105-90,213-190,262        C1663.7,12801.6,1569.7,12808.6,1507.7,12788.6z"></path>
-                                                <path d="M227.7,11508.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,11521.6,289.7,11528.6,227.7,11508.6z"></path>
-                                                <path d="M1507.7,11508.6c-151-50-253-216-222-362c25-119,136-230,254-255c194-41,395,142,375,339c-11,105-90,213-190,262        C1663.7,11521.6,1569.7,11528.6,1507.7,11508.6z"></path>
-                                                <path d="M227.7,10228.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,10241.6,289.7,10248.6,227.7,10228.6z"></path>
-                                                <path d="M1507.7,10228.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,10241.6,1569.7,10248.6,1507.7,10228.6z"></path>
-                                                <path d="M227.7,8948.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,8961.6,289.7,8968.6,227.7,8948.6z"></path>
-                                                <path d="M1507.7,8948.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,8961.6,1569.7,8968.6,1507.7,8948.6z"></path>
-                                                <path d="M227.7,7668.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,7681.6,289.7,7688.6,227.7,7668.6z"></path>
-                                                <path d="M1507.7,7668.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,7681.6,1569.7,7688.6,1507.7,7668.6z"></path>
-                                                <path d="M227.7,6388.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,6401.6,289.7,6408.6,227.7,6388.6z"></path>
-                                                <path d="M1507.7,6388.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,6401.6,1569.7,6408.6,1507.7,6388.6z"></path>
-                                                <path d="M227.7,5108.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,5121.6,289.7,5128.6,227.7,5108.6z"></path>
-                                                <path d="M1507.7,5108.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,5121.6,1569.7,5128.6,1507.7,5108.6z"></path>
-                                                <path d="M227.7,3828.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,3841.6,289.7,3848.6,227.7,3828.6z"></path>
-                                                <path d="M1507.7,3828.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,3841.6,1569.7,3848.6,1507.7,3828.6z"></path>
-                                                <path d="M227.7,2548.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,2561.6,289.7,2568.6,227.7,2548.6z"></path>
-                                                <path d="M1507.7,2548.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,2561.6,1569.7,2568.6,1507.7,2548.6z"></path>
-                                                <path d="M227.7,1268.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,1281.6,289.7,1288.6,227.7,1268.6z"></path>
-                                                <path d="M1507.7,1268.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,1281.6,1569.7,1288.6,1507.7,1268.6z"></path>
-                                            </g>
-                                        </svg>
-                                        <!-- END of SVG dots-->
-                                    </div>
-                                    <div class="dots-2">
-                                        <!-- SVG Dots-->
-                                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 191.6 1215.4" style="enable-background: new 0 0 191.6 1215.4" xml:space="preserve">
-                                            <g transform="translate(0.000000,1280.000000) scale(0.100000,-0.100000)">
-                                                <path d="M227.7,12788.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,12801.6,289.7,12808.6,227.7,12788.6z"></path>
-                                                <path d="M1507.7,12788.6c-151-50-253-216-222-362c25-119,136-230,254-255c194-41,395,142,375,339c-11,105-90,213-190,262        C1663.7,12801.6,1569.7,12808.6,1507.7,12788.6z"></path>
-                                                <path d="M227.7,11508.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,11521.6,289.7,11528.6,227.7,11508.6z"></path>
-                                                <path d="M1507.7,11508.6c-151-50-253-216-222-362c25-119,136-230,254-255c194-41,395,142,375,339c-11,105-90,213-190,262        C1663.7,11521.6,1569.7,11528.6,1507.7,11508.6z"></path>
-                                                <path d="M227.7,10228.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,10241.6,289.7,10248.6,227.7,10228.6z"></path>
-                                                <path d="M1507.7,10228.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,10241.6,1569.7,10248.6,1507.7,10228.6z"></path>
-                                                <path d="M227.7,8948.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,8961.6,289.7,8968.6,227.7,8948.6z"></path>
-                                                <path d="M1507.7,8948.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,8961.6,1569.7,8968.6,1507.7,8948.6z"></path>
-                                                <path d="M227.7,7668.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,7681.6,289.7,7688.6,227.7,7668.6z"></path>
-                                                <path d="M1507.7,7668.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,7681.6,1569.7,7688.6,1507.7,7668.6z"></path>
-                                                <path d="M227.7,6388.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,6401.6,289.7,6408.6,227.7,6388.6z"></path>
-                                                <path d="M1507.7,6388.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,6401.6,1569.7,6408.6,1507.7,6388.6z"></path>
-                                                <path d="M227.7,5108.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,5121.6,289.7,5128.6,227.7,5108.6z"></path>
-                                                <path d="M1507.7,5108.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,5121.6,1569.7,5128.6,1507.7,5108.6z"></path>
-                                                <path d="M227.7,3828.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,3841.6,289.7,3848.6,227.7,3828.6z"></path>
-                                                <path d="M1507.7,3828.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,3841.6,1569.7,3848.6,1507.7,3828.6z"></path>
-                                                <path d="M227.7,2548.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,2561.6,289.7,2568.6,227.7,2548.6z"></path>
-                                                <path d="M1507.7,2548.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,2561.6,1569.7,2568.6,1507.7,2548.6z"></path>
-                                                <path d="M227.7,1268.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,1281.6,289.7,1288.6,227.7,1268.6z"></path>
-                                                <path d="M1507.7,1268.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,1281.6,1569.7,1288.6,1507.7,1268.6z"></path>
-                                            </g>
-                                        </svg>
-                                        <!-- END of SVG dots-->
-                                    </div>
-                                    <div class="dots-3">
-                                        <!-- SVG Dots-->
-                                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 191.6 1215.4" style="enable-background: new 0 0 191.6 1215.4" xml:space="preserve">
-                                            <g transform="translate(0.000000,1280.000000) scale(0.100000,-0.100000)">
-                                                <path d="M227.7,12788.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,12801.6,289.7,12808.6,227.7,12788.6z"></path>
-                                                <path d="M1507.7,12788.6c-151-50-253-216-222-362c25-119,136-230,254-255c194-41,395,142,375,339c-11,105-90,213-190,262        C1663.7,12801.6,1569.7,12808.6,1507.7,12788.6z"></path>
-                                                <path d="M227.7,11508.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,11521.6,289.7,11528.6,227.7,11508.6z"></path>
-                                                <path d="M1507.7,11508.6c-151-50-253-216-222-362c25-119,136-230,254-255c194-41,395,142,375,339c-11,105-90,213-190,262        C1663.7,11521.6,1569.7,11528.6,1507.7,11508.6z"></path>
-                                                <path d="M227.7,10228.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,10241.6,289.7,10248.6,227.7,10228.6z"></path>
-                                                <path d="M1507.7,10228.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,10241.6,1569.7,10248.6,1507.7,10228.6z"></path>
-                                                <path d="M227.7,8948.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,8961.6,289.7,8968.6,227.7,8948.6z"></path>
-                                                <path d="M1507.7,8948.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,8961.6,1569.7,8968.6,1507.7,8948.6z"></path>
-                                                <path d="M227.7,7668.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,7681.6,289.7,7688.6,227.7,7668.6z"></path>
-                                                <path d="M1507.7,7668.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,7681.6,1569.7,7688.6,1507.7,7668.6z"></path>
-                                                <path d="M227.7,6388.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,6401.6,289.7,6408.6,227.7,6388.6z"></path>
-                                                <path d="M1507.7,6388.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,6401.6,1569.7,6408.6,1507.7,6388.6z"></path>
-                                                <path d="M227.7,5108.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,5121.6,289.7,5128.6,227.7,5108.6z"></path>
-                                                <path d="M1507.7,5108.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,5121.6,1569.7,5128.6,1507.7,5108.6z"></path>
-                                                <path d="M227.7,3828.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,3841.6,289.7,3848.6,227.7,3828.6z"></path>
-                                                <path d="M1507.7,3828.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,3841.6,1569.7,3848.6,1507.7,3828.6z"></path>
-                                                <path d="M227.7,2548.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,2561.6,289.7,2568.6,227.7,2548.6z"></path>
-                                                <path d="M1507.7,2548.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,2561.6,1569.7,2568.6,1507.7,2548.6z"></path>
-                                                <path d="M227.7,1268.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,1281.6,289.7,1288.6,227.7,1268.6z"></path>
-                                                <path d="M1507.7,1268.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,1281.6,1569.7,1288.6,1507.7,1268.6z"></path>
-                                            </g>
-                                        </svg>
-                                        <!-- END of SVG dots-->
-                                    </div>
-                                    <div class="dots-4">
-                                        <!-- SVG Dots-->
-                                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 191.6 1215.4" style="enable-background: new 0 0 191.6 1215.4" xml:space="preserve">
-                                            <g transform="translate(0.000000,1280.000000) scale(0.100000,-0.100000)">
-                                                <path d="M227.7,12788.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,12801.6,289.7,12808.6,227.7,12788.6z"></path>
-                                                <path d="M1507.7,12788.6c-151-50-253-216-222-362c25-119,136-230,254-255c194-41,395,142,375,339c-11,105-90,213-190,262        C1663.7,12801.6,1569.7,12808.6,1507.7,12788.6z"></path>
-                                                <path d="M227.7,11508.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,11521.6,289.7,11528.6,227.7,11508.6z"></path>
-                                                <path d="M1507.7,11508.6c-151-50-253-216-222-362c25-119,136-230,254-255c194-41,395,142,375,339c-11,105-90,213-190,262        C1663.7,11521.6,1569.7,11528.6,1507.7,11508.6z"></path>
-                                                <path d="M227.7,10228.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,10241.6,289.7,10248.6,227.7,10228.6z"></path>
-                                                <path d="M1507.7,10228.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,10241.6,1569.7,10248.6,1507.7,10228.6z"></path>
-                                                <path d="M227.7,8948.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,8961.6,289.7,8968.6,227.7,8948.6z"></path>
-                                                <path d="M1507.7,8948.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,8961.6,1569.7,8968.6,1507.7,8948.6z"></path>
-                                                <path d="M227.7,7668.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,7681.6,289.7,7688.6,227.7,7668.6z"></path>
-                                                <path d="M1507.7,7668.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,7681.6,1569.7,7688.6,1507.7,7668.6z"></path>
-                                                <path d="M227.7,6388.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,6401.6,289.7,6408.6,227.7,6388.6z"></path>
-                                                <path d="M1507.7,6388.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,6401.6,1569.7,6408.6,1507.7,6388.6z"></path>
-                                                <path d="M227.7,5108.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,5121.6,289.7,5128.6,227.7,5108.6z"></path>
-                                                <path d="M1507.7,5108.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,5121.6,1569.7,5128.6,1507.7,5108.6z"></path>
-                                                <path d="M227.7,3828.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,3841.6,289.7,3848.6,227.7,3828.6z"></path>
-                                                <path d="M1507.7,3828.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,3841.6,1569.7,3848.6,1507.7,3828.6z"></path>
-                                                <path d="M227.7,2548.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,2561.6,289.7,2568.6,227.7,2548.6z"></path>
-                                                <path d="M1507.7,2548.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,2561.6,1569.7,2568.6,1507.7,2548.6z"></path>
-                                                <path d="M227.7,1268.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,1281.6,289.7,1288.6,227.7,1268.6z"></path>
-                                                <path d="M1507.7,1268.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,1281.6,1569.7,1288.6,1507.7,1268.6z"></path>
-                                            </g>
-                                        </svg>
-                                        <!-- END of SVG dots-->
-                                    </div>
+                        <div class="col-lg-6 reveal" data-delay="2">
+                            <div class="hero-visual">
+                                <div class="profile-ring" aria-hidden="true"></div>
+                                <div class="profile-card">
+                                    <img src="assets/descanso_free1.png" alt="Foto de Aldo Carrizo" width="470" height="531" />
                                 </div>
+                                <div class="float-chip chip-1"><i class="bi bi-code-slash"></i> Desarrollo Web</div>
+                                <div class="float-chip chip-2"><i class="bi bi-database"></i> Bases de datos</div>
+                                <div class="float-chip chip-3"><i class="bi bi-hdd-network"></i> Redes &amp; NOC</div>
                             </div>
                         </div>
                     </div>
                 </div>
             </header>
-            <!-- About Section-->
-            <section class="bg-light py-5">
-                <div class="container px-5">
-                    <div class="row gx-5 justify-content-center">
-                        <div class="col-xxl-8">
-                            <div class="text-center my-5">
-                                <h2 class="display-5 fw-bolder"><span class="text-gradient d-inline">Acerca de mi</span></h2>
-                                <p class="lead fw-light mb-4">Mi nombre es Aldo Carrizo y soy desarrollador web.</p>
-                                <p class="text-muted">
-                                Si llegaste hasta acá, bienvenido. 
-                                Soy técnico en informática y un entusiasta de la tecnología, el desarrollo y los videojuegos.
-                                Egresado de la carrera de Licenciatura en Análisis de Sistemas de la Facultad Politécnica de la Universidad Nacional del Este.
-                                Disfruto aprender cosas nuevas y transformar ideas en soluciones digitales.
-                                </p>
 
-                                <div class="d-flex justify-content-center fs-2 gap-4">
-                                    <a class="text-gradient" href="https://www.linkedin.com/in/devaldocarrizo/"><i class="bi bi-linkedin"></i></a>
-                                    <a class="text-gradient" href="mailto:aldocarrizo841@gmail.com"><i class="bi bi-envelope-fill"></i></a> 
-                                    <a class="text-gradient" href="https://www.instagram.com/krritzo_2k?igsh=ODh5NTQ4cjJxbXU2"><i class="bi bi-instagram"></i></a>
-                                    <a class="text-gradient" href="https://wa.me/595971469136"><i class="bi bi-whatsapp"></i></a>
-                                    <a class="text-gradient" href="https://github.com/A-Carrizo"><i class="bi bi-github"></i></a>
-                                    <a class="text-gradient" href="https://open.spotify.com/user/22ldgzsblpnei54y5geyi5ynq?si=ffca7aa5ab464a3f"><i class="bi bi-spotify"></i></a>
+            <!-- Tecnologías-->
+            <div class="section-alt">
+                <div class="marquee" aria-label="Tecnologías que utilizo">
+                    <div class="marquee-track">
+                        <span class="marquee-item"><i class="devicon-html5-plain colored"></i>HTML</span>
+                        <span class="marquee-item"><i class="devicon-css3-plain colored"></i>CSS</span>
+                        <span class="marquee-item"><i class="devicon-javascript-plain colored"></i>JavaScript</span>
+                        <span class="marquee-item"><i class="devicon-python-plain colored"></i>Python</span>
+                        <span class="marquee-item"><i class="devicon-csharp-plain colored"></i>C#</span>
+                        <span class="marquee-item"><i class="devicon-dot-net-plain colored"></i>ASP.NET</span>
+                        <span class="marquee-item"><i class="devicon-nodejs-plain colored"></i>Node.js</span>
+                        <span class="marquee-item"><i class="devicon-react-original colored"></i>React</span>
+                        <span class="marquee-item"><i class="devicon-flask-original"></i>Flask</span>
+                        <span class="marquee-item"><i class="devicon-postgresql-plain colored"></i>PostgreSQL</span>
+                        <!-- duplicado para el bucle continuo -->
+                        <span class="marquee-item" aria-hidden="true"><i class="devicon-html5-plain colored"></i>HTML</span>
+                        <span class="marquee-item" aria-hidden="true"><i class="devicon-css3-plain colored"></i>CSS</span>
+                        <span class="marquee-item" aria-hidden="true"><i class="devicon-javascript-plain colored"></i>JavaScript</span>
+                        <span class="marquee-item" aria-hidden="true"><i class="devicon-python-plain colored"></i>Python</span>
+                        <span class="marquee-item" aria-hidden="true"><i class="devicon-csharp-plain colored"></i>C#</span>
+                        <span class="marquee-item" aria-hidden="true"><i class="devicon-dot-net-plain colored"></i>ASP.NET</span>
+                        <span class="marquee-item" aria-hidden="true"><i class="devicon-nodejs-plain colored"></i>Node.js</span>
+                        <span class="marquee-item" aria-hidden="true"><i class="devicon-react-original colored"></i>React</span>
+                        <span class="marquee-item" aria-hidden="true"><i class="devicon-flask-original"></i>Flask</span>
+                        <span class="marquee-item" aria-hidden="true"><i class="devicon-postgresql-plain colored"></i>PostgreSQL</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Servicios-->
+            <section class="section">
+                <div class="container px-4 px-lg-5">
+                    <div class="section-head reveal">
+                        <span class="eyebrow">Qué hago</span>
+                        <h2>Soluciones de punta a punta</h2>
+                        <p>Desde la interfaz que ve tu cliente hasta la infraestructura que la mantiene funcionando.</p>
+                    </div>
+                    <div class="row g-4">
+                        <div class="col-md-6 col-lg-4 reveal">
+                            <div class="glass-card service-card">
+                                <span class="icon-tile"><i class="bi bi-window-sidebar"></i></span>
+                                <h3>Desarrollo Web</h3>
+                                <p>Sitios y aplicaciones web modernas, responsivas y pensadas para darle presencia online a tu negocio.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 reveal" data-delay="1">
+                            <div class="glass-card service-card">
+                                <span class="icon-tile"><i class="bi bi-diagram-3"></i></span>
+                                <h3>Sistemas &amp; Bases de Datos</h3>
+                                <p>Análisis, diseño y desarrollo de sistemas a medida con bases de datos bien modeladas y eficientes.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 reveal" data-delay="2">
+                            <div class="glass-card service-card">
+                                <span class="icon-tile"><i class="bi bi-hdd-network"></i></span>
+                                <h3>Infraestructura &amp; NOC</h3>
+                                <p>Monitoreo de sistemas críticos, redes y equipos, con foco en la continuidad operativa.</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
+
+            <!-- About Section-->
+            <section class="section pt-0">
+                <div class="container px-4 px-lg-5">
+                    <div class="row justify-content-center">
+                        <div class="col-xl-10">
+                            <div class="glass-card about-card reveal">
+                                <div class="row g-5 align-items-center">
+                                    <div class="col-lg-7">
+                                        <span class="eyebrow">Acerca de mí</span>
+                                        <h2 class="fw-bolder mb-3" style="letter-spacing:-0.02em">Mi nombre es <span class="text-gradient">Aldo Carrizo</span> y soy desarrollador web.</h2>
+                                        <p class="text-muted mb-4">
+                                            Si llegaste hasta acá, bienvenido.
+                                            Soy técnico en informática y un entusiasta de la tecnología, el desarrollo y los videojuegos.
+                                            Egresado de la carrera de Licenciatura en Análisis de Sistemas de la Facultad Politécnica de la Universidad Nacional del Este.
+                                            Disfruto aprender cosas nuevas y transformar ideas en soluciones digitales.
+                                        </p>
+                                        <div class="social">
+                                            <a href="https://www.linkedin.com/in/devaldocarrizo/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+                                            <a href="https://github.com/A-Carrizo" target="_blank" rel="noopener" aria-label="GitHub"><i class="bi bi-github"></i></a>
+                                            <a href="mailto:aldocarrizo841@gmail.com" aria-label="Correo"><i class="bi bi-envelope-fill"></i></a>
+                                            <a href="https://wa.me/595971469136" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="bi bi-whatsapp"></i></a>
+                                            <a href="https://www.instagram.com/krritzo_2k?igsh=ODh5NTQ4cjJxbXU2" target="_blank" rel="noopener" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+                                            <a href="https://open.spotify.com/user/22ldgzsblpnei54y5geyi5ynq?si=ffca7aa5ab464a3f" target="_blank" rel="noopener" aria-label="Spotify"><i class="bi bi-spotify"></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-5">
+                                        <div class="about-facts mt-0">
+                                            <div class="fact"><i class="bi bi-mortarboard-fill"></i><div><strong>Lic. en Análisis de Sistemas</strong><span>FPUNE</span></div></div>
+                                            <div class="fact"><i class="bi bi-briefcase-fill"></i><div><strong>Supervisor de NOC</strong><span>NeoTelecom</span></div></div>
+                                            <div class="fact"><i class="bi bi-geo-alt-fill"></i><div><strong>Ciudad del Este</strong><span>Paraguay</span></div></div>
+                                            <div class="fact"><i class="bi bi-controller"></i><div><strong>Gamer</strong><span>y amante de la tecnología</span></div></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Call to action-->
+            <section class="section pt-0">
+                <div class="container px-4 px-lg-5">
+                    <div class="cta reveal">
+                        <h2>¿Tenés una idea en mente?</h2>
+                        <p>Contame sobre tu proyecto y veamos juntos cómo llevarlo al mundo digital.</p>
+                        <a class="btn-light-pill" href="contact.html">Hablemos <i class="bi bi-arrow-right"></i></a>
+                    </div>
+                </div>
+            </section>
         </main>
+
         <!-- Footer-->
+        <footer class="site-footer">
+            <div class="container px-4 px-lg-5">
+                <div class="footer-inner">
+                    <div>
+                        <a class="brand" href="index.html"><span class="brand-mark">AC</span><span>Aldo Carrizo</span></a>
+                        <p>Desarrollo web &middot; Sistemas &middot; Infraestructura</p>
+                    </div>
+                    <div class="social">
+                        <a href="https://www.linkedin.com/in/devaldocarrizo/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+                        <a href="https://github.com/A-Carrizo" target="_blank" rel="noopener" aria-label="GitHub"><i class="bi bi-github"></i></a>
+                        <a href="mailto:aldocarrizo841@gmail.com" aria-label="Correo"><i class="bi bi-envelope-fill"></i></a>
+                        <a href="https://wa.me/595971469136" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="bi bi-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <span>&copy; <span data-year>2026</span> Aldo Carrizo. Todos los derechos reservados.</span>
+                    <span>Ciudad del Este, Paraguay</span>
+                </div>
+            </div>
+        </footer>
 
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>

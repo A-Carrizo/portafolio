@@ -1,248 +1,178 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es" class="no-js">
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title>Personal - Start Bootstrap Template</title>
+        <meta name="description" content="Currículum de Aldo Carrizo: experiencia, educación y habilidades." />
+        <meta name="author" content="Aldo Carrizo" />
+        <meta name="theme-color" content="#1e30f3" />
+        <title>Currículum · Aldo Carrizo</title>
+        <script>(function(){try{var t=localStorage.getItem('theme');if(!t)t=matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';document.documentElement.setAttribute('data-theme',t);}catch(e){}})();</script>
         <!-- Favicon-->
-        <link rel="icon" type="image/x-icon" href="assets/icono_persona.svg" />
+        <link rel="icon" type="image/svg+xml" href="assets/icono_persona.svg" />
         <!-- Custom Google font-->
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@100;200;300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet" />
-        <!-- Bootstrap icons-->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&amp;display=swap" rel="stylesheet" />
+        <!-- Iconos-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet" />
+        <link href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/devicon.min.css" rel="stylesheet" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+        <link href="css/custom.css" rel="stylesheet" />
     </head>
-    <body class="d-flex flex-column h-100 bg-light">
+    <body class="d-flex flex-column h-100">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg site-nav sticky-top" id="mainNav">
+            <div class="container px-4 px-lg-5">
+                <a class="brand" href="index.html"><span class="brand-mark">AC</span><span>Aldo Carrizo</span></a>
+                <div class="d-flex align-items-center gap-2 order-lg-last ms-auto ms-lg-3">
+                    <button class="icon-btn" id="themeToggle" type="button" aria-label="Cambiar tema claro/oscuro"><i class="bi bi-moon-stars-fill"></i></button>
+                    <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Abrir menú"><i class="bi bi-list"></i></button>
+                </div>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="resume.html">Currículum</a></li>
+                        <li class="nav-item"><a class="nav-link" href="projects.html">Proyectos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contact.html">Contacto</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
         <main class="flex-shrink-0">
-            <!-- Navigation-->
-            <nav class="navbar navbar-expand-lg navbar-light bg-white py-3">
-                <div class="container px-5">
-                    <a class="navbar-brand" href="index.html"><span class="fw-bolder text-primary">Aldo Carrizo</span></a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 small fw-bolder">
-                            <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
-                            <li class="nav-item"><a class="nav-link" href="resume.html">Currículum</a></li>
-                            <li class="nav-item"><a class="nav-link" href="projects.html">Proyectos</a></li>
-                            <li class="nav-item"><a class="nav-link" href="contact.html">Contacto</a></li>
-                        </ul>
-                    </div>
+            <!-- Encabezado-->
+            <header class="page-hero">
+                <div class="hero-bg" aria-hidden="true"><span class="blob blob-1"></span><span class="blob blob-2"></span><span class="grid-overlay"></span></div>
+                <div class="container px-4 px-lg-5 reveal">
+                    <span class="eyebrow">Trayectoria</span>
+                    <h1><span class="text-gradient">Currículum</span></h1>
+                    <p class="mb-4">Experiencia en infraestructura, redes y sistemas, con formación en análisis y desarrollo de software.</p>
+                    <a class="btn-grad" href="assets/cv/ALDO_CARRIZO_CV.pdf" download><i class="bi bi-download"></i> Descargar CV</a>
                 </div>
-            </nav>
-            <!-- Page Content-->
-            <div class="container px-5 my-5">
-                <div class="text-center mb-5">
-                    <h1 class="display-5 fw-bolder mb-0"><span class="text-gradient d-inline">Currículum</span></h1>
-                </div>
-                <div class="row gx-5 justify-content-center">
-                    <div class="col-lg-11 col-xl-9 col-xxl-8">
+            </header>
+
+            <div class="container px-4 px-lg-5 pb-5">
+                <div class="row justify-content-center">
+                    <div class="col-lg-11 col-xl-9">
                         <!-- Experience Section-->
-                        <section>
-                            <div class="d-flex align-items-center justify-content-between mb-4">
-                                <h2 class="text-primary fw-bolder mb-0">Experiencias</h2>
-                                <!-- Download resume button-->
-                                <!-- Note: Set the link href target to a PDF file within your project-->
-                                <a class="btn btn-primary px-4 py-3" href="assets/cv/Aldo_Carrizo_CV.pdf" download>
-                                    <i class="bi bi-download me-2"></i>
-                                    Descargar CV
-                                </a>
+                        <section class="mb-5 pb-4">
+                            <div class="cv-section-title reveal">
+                                <h2><span class="icon-tile"><i class="bi bi-briefcase-fill"></i></span>Experiencia</h2>
                             </div>
-                            <!-- Experience Card 1-->
-                            <div class="card shadow border-0 rounded-4 mb-5">
-                                <div class="card-body p-5">
-                                    <div class="row align-items-center gx-5">
-                                        <div class="col text-center text-lg-start mb-4 mb-lg-0">
-                                            <div class="bg-light p-4 rounded-4">
-                                                <div class="text-primary fw-bolder mb-2">2026 - Presente</div>
-                                                <div class="small fw-bolder">Supervisor de NOC</div>
-                                                <div class="small text-muted">NeoTelecom</div>
-                                                <div class="small text-muted">Ciudad del Este, PY</div>
+                            <div class="timeline">
+                                <div class="timeline-item current reveal">
+                                    <div class="glass-card tl-card">
+                                        <div class="tl-head">
+                                            <div>
+                                                <h3>Supervisor de NOC</h3>
+                                                <div class="tl-meta"><span><i class="bi bi-building"></i>NeoTelecom</span><span><i class="bi bi-geo-alt"></i>Ciudad del Este, PY</span></div>
                                             </div>
+                                            <span class="tl-date now"><i class="bi bi-circle-fill" style="font-size:.45rem"></i>2026 — Presente</span>
                                         </div>
-                                        <div class="col-lg-8"><div>Lidero el equipo de NOC, coordinando la operación, 
-                                            el seguimiento de incidencias y la correcta gestión de tickets escalados desde el área de asistencia 
-                                            técnica. Responsable del aprovisionamiento remoto de routers y equipos de red, realizando configuraciones, ajustes y validaciones para la implementación de servicios. Intervengo en la resolución de casos complejos que no pueden ser solucionados en primera línea, definiendo acciones correctivas, escalando a áreas especializadas cuando es necesario y asegurando el cumplimiento de los tiempos de respuesta y resolución. Además, gestiono la creación de eventos masivos ante incidencias que afectan sectores o zonas extensas, coordinando la generación de actividades técnicas para su pronta resolución 
-                                            y la notificación automatizada a los clientes de las áreas impactadas.</div></div>
+                                        <p>Lidero el equipo de NOC, coordinando la operación, el seguimiento de incidencias y la correcta gestión de tickets escalados desde el área de asistencia técnica. Responsable del aprovisionamiento remoto de routers y equipos de red, realizando configuraciones, ajustes y validaciones para la implementación de servicios. Intervengo en la resolución de casos complejos que no pueden ser solucionados en primera línea, definiendo acciones correctivas, escalando a áreas especializadas cuando es necesario y asegurando el cumplimiento de los tiempos de respuesta y resolución. Además, gestiono la creación de eventos masivos ante incidencias que afectan sectores o zonas extensas, coordinando la generación de actividades técnicas para su pronta resolución y la notificación automatizada a los clientes de las áreas impactadas.</p>
                                     </div>
                                 </div>
-                            </div>
-                            <!-- Experience Card 2-->
-                            <div class="card shadow border-0 rounded-4 mb-5">
-                                <div class="card-body p-5">
-                                    <div class="row align-items-center gx-5">
-                                        <div class="col text-center text-lg-start mb-4 mb-lg-0">
-                                            <div class="bg-light p-4 rounded-4">
-                                                <div class="text-primary fw-bolder mb-2">2023 - 2026</div>
-                                                <div class="small fw-bolder">NOC Operator</div>
-                                                <div class="small text-muted">Penguin Infraestructure</div>
-                                                <div class="small text-muted">Hernandarias, PY</div>
+                                <div class="timeline-item reveal">
+                                    <div class="glass-card tl-card">
+                                        <div class="tl-head">
+                                            <div>
+                                                <h3>NOC Operator</h3>
+                                                <div class="tl-meta"><span><i class="bi bi-building"></i>Penguin Infraestructure</span><span><i class="bi bi-geo-alt"></i>Hernandarias, PY</span></div>
                                             </div>
+                                            <span class="tl-date">2023 — 2026</span>
                                         </div>
-                                        <div class="col-lg-8"><div>Operación y monitoreo de sistemas críticos de infraestructura mediante plataformas SCADA, supervisando equipos de procesamiento en datacenter.
-                                            Control de carga eléctrica, monitoreo de redes (latencia, fallas y pérdida de paquetes) y gestión de sistemas de refrigeración y recursos hídricos para asegurar la estabilidad térmica y operativa.
-                                            Coordinación y soporte a equipos técnicos en campo para inspección, mantenimiento y resolución de incidencias.</div></div>
+                                        <p>Operación y monitoreo de sistemas críticos de infraestructura mediante plataformas SCADA, supervisando equipos de procesamiento en datacenter. Control de carga eléctrica, monitoreo de redes (latencia, fallas y pérdida de paquetes) y gestión de sistemas de refrigeración y recursos hídricos para asegurar la estabilidad térmica y operativa. Coordinación y soporte a equipos técnicos en campo para inspección, mantenimiento y resolución de incidencias.</p>
                                     </div>
                                 </div>
-                            </div>
-                            <!-- Experience Card 3-->
-                            <div class="card shadow border-0 rounded-4 mb-5">
-                                <div class="card-body p-5">
-                                    <div class="row align-items-center gx-5">
-                                        <div class="col text-center text-lg-start mb-4 mb-lg-0">
-                                            <div class="bg-light p-4 rounded-4">
-                                                <div class="text-primary fw-bolder mb-2">2022 - 2023</div>
-                                                <div class="small fw-bolder">Asistente Informático</div>
-                                                <div class="small text-muted">Sureste S.A</div>
-                                                <div class="small text-muted">Ciudad del Este, PY</div>
+                                <div class="timeline-item reveal">
+                                    <div class="glass-card tl-card">
+                                        <div class="tl-head">
+                                            <div>
+                                                <h3>Asistente Informático</h3>
+                                                <div class="tl-meta"><span><i class="bi bi-building"></i>Sureste S.A</span><span><i class="bi bi-geo-alt"></i>Ciudad del Este, PY</span></div>
                                             </div>
+                                            <span class="tl-date">2022 — 2023</span>
                                         </div>
-                                        <div class="col-lg-8"><div>Responsable del mantenimiento preventivo y correctivo de los equipos informáticos de la empresa.
-                                            Instalación, montaje y configuración de nuevas computadoras y dispositivos de red, incluyendo switches e impresoras.
-                                            Soporte técnico a usuarios y asistencia ante incidencias en los sistemas internos, garantizando la continuidad operativa.</div></div>
+                                        <p>Responsable del mantenimiento preventivo y correctivo de los equipos informáticos de la empresa. Instalación, montaje y configuración de nuevas computadoras y dispositivos de red, incluyendo switches e impresoras. Soporte técnico a usuarios y asistencia ante incidencias en los sistemas internos, garantizando la continuidad operativa.</p>
                                     </div>
                                 </div>
-                            </div>
-                                                        <!-- Experience Card 1-->
-                            <div class="card shadow border-0 rounded-4 mb-5">
-                                <div class="card-body p-5">
-                                    <div class="row align-items-center gx-5">
-                                        <div class="col text-center text-lg-start mb-4 mb-lg-0">
-                                            <div class="bg-light p-4 rounded-4">
-                                                <div class="text-primary fw-bolder mb-2">2019 - 2019</div>
-                                                <div class="small fw-bolder">Asistente de Siniestros</div>
-                                                <div class="small text-muted">Mapfre</div>
-                                                <div class="small text-muted">Ciudad del Este, PY</div>
+                                <div class="timeline-item reveal">
+                                    <div class="glass-card tl-card">
+                                        <div class="tl-head">
+                                            <div>
+                                                <h3>Asistente de Siniestros</h3>
+                                                <div class="tl-meta"><span><i class="bi bi-building"></i>Mapfre</span><span><i class="bi bi-geo-alt"></i>Ciudad del Este, PY</span></div>
                                             </div>
+                                            <span class="tl-date">2019</span>
                                         </div>
-                                        <div class="col-lg-8"><div>Encargado de la organización y gestión de registros de ingreso y egreso generados durante las actividades diarias.
-                                            Distribución y disponibilidad de documentación en las oficinas correspondientes.
-                                            Digitalización y archivo de documentos, asegurando el orden, la trazabilidad y el acceso a la información.</div></div>
+                                        <p>Encargado de la organización y gestión de registros de ingreso y egreso generados durante las actividades diarias. Distribución y disponibilidad de documentación en las oficinas correspondientes. Digitalización y archivo de documentos, asegurando el orden, la trazabilidad y el acceso a la información.</p>
                                     </div>
                                 </div>
                             </div>
                         </section>
+
                         <!-- Education Section-->
-                        <section>
-                            <h2 class="text-secondary fw-bolder mb-4">Educación</h2>
-                            <!-- Education Card 1-->
-                            <div class="card shadow border-0 rounded-4 mb-5">
-                                <div class="card-body p-5">
-                                    <div class="row align-items-center gx-5">
-                                        <div class="col text-center text-lg-start mb-4 mb-lg-0">
-                                            <div class="bg-light p-4 rounded-4">
-                                                <div class="text-secondary fw-bolder mb-2">2020 - 2025</div>
-                                                <div class="mb-2">
-                                                    <div class="small fw-bolder">Facultad Politécnica</div>
-                                                    <div class="small fw-bolder">Universidad Nacional del Este</div>
-                                                    <div class="small text-muted">Ciudad del Este, PY</div>
-                                                </div>
-                                                <div class="fst-italic">
-                                                    <div class="small text-muted">Licenciatura en Análisis de Sistemas</div>
-                                                </div>
+                        <section class="mb-5 pb-4">
+                            <div class="cv-section-title reveal">
+                                <h2><span class="icon-tile"><i class="bi bi-mortarboard-fill"></i></span>Educación</h2>
+                            </div>
+                            <div class="timeline">
+                                <div class="timeline-item reveal">
+                                    <div class="glass-card tl-card">
+                                        <div class="tl-head">
+                                            <div>
+                                                <h3>Licenciatura en Análisis de Sistemas</h3>
+                                                <div class="tl-meta"><span><i class="bi bi-bank"></i>Facultad Politécnica — Universidad Nacional del Este</span><span><i class="bi bi-geo-alt"></i>Ciudad del Este, PY</span></div>
                                             </div>
+                                            <span class="tl-date">2020 — 2025</span>
                                         </div>
-                                        <div class="col-lg-8"><div>Formación orientada al análisis, diseño y desarrollo de sistemas web y de escritorio.
-                                            Estudios en gestión de proyectos, redes informáticas y metodologías de desarrollo de software.
-                                            Adquisición de competencias en modelado de sistemas, bases de datos, arquitectura de software y resolución de problemas.</div></div>
+                                        <p>Formación orientada al análisis, diseño y desarrollo de sistemas web y de escritorio. Estudios en gestión de proyectos, redes informáticas y metodologías de desarrollo de software. Adquisición de competencias en modelado de sistemas, bases de datos, arquitectura de software y resolución de problemas.</p>
                                     </div>
                                 </div>
-                            </div>
-                            <!-- Education Card 2-->
-                            <div class="card shadow border-0 rounded-4 mb-5">
-                                <div class="card-body p-5">
-                                    <div class="row align-items-center gx-5">
-                                        <div class="col text-center text-lg-start mb-4 mb-lg-0">
-                                            <div class="bg-light p-4 rounded-4">
-                                                <div class="text-secondary fw-bolder mb-2">2017 - 2019</div>
-                                                <div class="mb-2">
-                                                    <div class="small fw-bolder">C.R.E.C.E</div>
-                                                    <div class="small text-muted">Ciudad del Este, PY</div>
-                                                </div>
-                                                <div class="fst-italic">
-                                                    <div class="small text-muted">Bachillerato Técnico</div>
-                                                    <div class="small text-muted">Informática</div>
-                                                </div>
+                                <div class="timeline-item reveal">
+                                    <div class="glass-card tl-card">
+                                        <div class="tl-head">
+                                            <div>
+                                                <h3>Bachillerato Técnico en Informática</h3>
+                                                <div class="tl-meta"><span><i class="bi bi-bank"></i>C.R.E.C.E</span><span><i class="bi bi-geo-alt"></i>Ciudad del Este, PY</span></div>
                                             </div>
+                                            <span class="tl-date">2017 — 2019</span>
                                         </div>
-                                        <div class="col-lg-8"><div>Formación técnica en lógica de programación y programación orientada a objetos, con conocimientos en robótica, redes básicas, informática general y prácticas de montaje y mantenimiento de computadoras.</div></div>
+                                        <p>Formación técnica en lógica de programación y programación orientada a objetos, con conocimientos en robótica, redes básicas, informática general y prácticas de montaje y mantenimiento de computadoras.</p>
                                     </div>
                                 </div>
                             </div>
                         </section>
-                        <!-- Divider-->
-                        <div class="pb-5"></div>
+
                         <!-- Skills Section-->
-                        <section>
-                            <!-- Skillset Card-->
-                            <div class="card shadow border-0 rounded-4 mb-5">
-                                <div class="card-body p-5">
-                                    <!-- Professional skills list-->
-                                    <div class="mb-5">
-                                        <div class="d-flex align-items-center mb-4">
-                                            <div class="feature bg-primary bg-gradient-primary-to-secondary text-white rounded-3 me-3"><i class="bi bi-tools"></i></div>
-                                            <h3 class="fw-bolder mb-0"><span class="text-gradient d-inline">Habilidades Profesionales</span></h3>
-                                        </div>
-                                        <div class="row row-cols-1 row-cols-md-3 mb-4">
-                                            <div class="col mb-4 mb-md-0"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">Desarrollo Web</div></div>
-                                            <div class="col mb-4 mb-md-0"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">Gestión de Bases de Datos</div></div>
-                                            <div class="col"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">Ciberseguridad Básica</div></div>
-                                        </div>
-                                        <div class="row row-cols-1 row-cols-md-3">
-                                            <div class="col mb-4 mb-md-0"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">Monitoreo de Sistemas Críticos</div></div>
-                                            <div class="col mb-4 mb-md-0"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">Análisis de Sistemas</div></div>
-                                            <div class="col"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">Análisis de Datos</div></div>
-                                        </div>
-                                    </div>
-                                    <!-- Languages list-->
-                                    <div class="mb-0">
-                                        <div class="d-flex align-items-center mb-4">
-                                            <div class="feature bg-primary bg-gradient-primary-to-secondary text-white rounded-3 me-3"><i class="bi bi-code-slash"></i></div>
-                                            <h3 class="fw-bolder mb-0"><span class="text-gradient d-inline">Lenguajes y Tecnologías</span></h3>
-                                        </div>
-                                        <div class="row row-cols-1 row-cols-md-3 mb-4">
-                                        <div class="col mb-4 mb-md-0">
-                                            <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">HTML</div>
-                                        </div>
-                                        <div class="col mb-4 mb-md-0">
-                                            <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">CSS</div>
-                                        </div>
-                                        <div class="col">
-                                            <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">JavaScript</div>
-                                        </div>
-</div>
-
-                            <!-- AQUÍ el cambio -->
-                            <div class="row row-cols-1 row-cols-md-3 mb-4">
-                                <div class="col mb-4 mb-md-0">
-                                    <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">Python</div>
+                        <section class="mb-5">
+                            <div class="glass-card p-4 p-md-5 reveal">
+                                <div class="cv-section-title">
+                                    <h2><span class="icon-tile"><i class="bi bi-tools"></i></span>Habilidades Profesionales</h2>
                                 </div>
-                                <div class="col mb-4 mb-md-0">
-                                    <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">C#</div>
+                                <div class="chip-grid mb-5">
+                                    <div class="skill-chip"><i class="bi bi-globe2"></i>Desarrollo Web</div>
+                                    <div class="skill-chip"><i class="bi bi-database-gear"></i>Gestión de Bases de Datos</div>
+                                    <div class="skill-chip"><i class="bi bi-shield-lock"></i>Ciberseguridad Básica</div>
+                                    <div class="skill-chip"><i class="bi bi-activity"></i>Monitoreo de Sistemas Críticos</div>
+                                    <div class="skill-chip"><i class="bi bi-diagram-3"></i>Análisis de Sistemas</div>
+                                    <div class="skill-chip"><i class="bi bi-bar-chart-line"></i>Análisis de Datos</div>
                                 </div>
-                                <div class="col">
-                                    <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">Node.js</div>
+                                <div class="cv-section-title">
+                                    <h2><span class="icon-tile"><i class="bi bi-code-slash"></i></span>Lenguajes y Tecnologías</h2>
                                 </div>
-                            </div>
-
-                            <div class="row row-cols-1 row-cols-md-3">
-                                <div class="col mb-4 mb-md-0">
-                                    <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">React</div>
-                                </div>
-                                <div class="col mb-4 mb-md-0">
-                                    <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">Flask</div>
-                                </div>
-                                <div class="col">
-                                    <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">SQL</div>
-                                </div>
-                            </div>
-
-                                        </div>
-                                    </div>
+                                <div class="chip-grid">
+                                    <div class="skill-chip"><i class="devicon-html5-plain colored"></i>HTML</div>
+                                    <div class="skill-chip"><i class="devicon-css3-plain colored"></i>CSS</div>
+                                    <div class="skill-chip"><i class="devicon-javascript-plain colored"></i>JavaScript</div>
+                                    <div class="skill-chip"><i class="devicon-python-plain colored"></i>Python</div>
+                                    <div class="skill-chip"><i class="devicon-csharp-plain colored"></i>C#</div>
+                                    <div class="skill-chip"><i class="devicon-dot-net-plain colored"></i>ASP.NET</div>
+                                    <div class="skill-chip"><i class="devicon-nodejs-plain colored"></i>Node.js</div>
+                                    <div class="skill-chip"><i class="devicon-react-original colored"></i>React</div>
+                                    <div class="skill-chip"><i class="devicon-flask-original"></i>Flask</div>
+                                    <div class="skill-chip"><i class="devicon-postgresql-plain colored"></i>SQL</div>
                                 </div>
                             </div>
                         </section>
@@ -250,7 +180,28 @@
                 </div>
             </div>
         </main>
+
         <!-- Footer-->
+        <footer class="site-footer">
+            <div class="container px-4 px-lg-5">
+                <div class="footer-inner">
+                    <div>
+                        <a class="brand" href="index.html"><span class="brand-mark">AC</span><span>Aldo Carrizo</span></a>
+                        <p>Desarrollo web &middot; Sistemas &middot; Infraestructura</p>
+                    </div>
+                    <div class="social">
+                        <a href="https://www.linkedin.com/in/devaldocarrizo/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+                        <a href="https://github.com/A-Carrizo" target="_blank" rel="noopener" aria-label="GitHub"><i class="bi bi-github"></i></a>
+                        <a href="mailto:aldocarrizo841@gmail.com" aria-label="Correo"><i class="bi bi-envelope-fill"></i></a>
+                        <a href="https://wa.me/595971469136" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="bi bi-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <span>&copy; <span data-year>2026</span> Aldo Carrizo. Todos los derechos reservados.</span>
+                    <span>Ciudad del Este, Paraguay</span>
+                </div>
+            </div>
+        </footer>
 
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
